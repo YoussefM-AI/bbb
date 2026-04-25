@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pescorama — Shop</title>
+  <meta name="description" content="Shop rods, reels, baits and accessories">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d9c8b3a0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main class="container section">
+    <h1>Shop</h1>
+
+    <div class="controls">
+      <div class="filter-group">
+        <label for="category">Category</label>
+        <select id="category">
+          <option value="all">All</option>
+          <option value="Rods">Rods</option>
+          <option value="Reels">Reels</option>
+          <option value="Baits">Baits</option>
+          <option value="Accessories">Accessories</option>
+        </select>
+      </div>
+
+      <div class="search">
+        <label for="search">Search</label>
+        <input id="search" type="search" placeholder="Search products...">
+      </div>
+    </div>
+
+    <div id="products-grid" class="grid grid-4" aria-live="polite"></div>
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="cart-modal" class="cart-modal" hidden></div>
+
+  <script src="js/components.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

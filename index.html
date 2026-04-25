@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pescorama — Home</title>
+  <meta name="description" content="Pescorama - Your favorite fishing store">
+  <!-- Font & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d9c8b3a0.js" crossorigin="anonymous"></script>
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header will be injected by components.js -->
+  <div id="site-header"></div>
+
+  <!-- HERO SECTION -->
+  <main>
+    <section class="hero">
+      <!-- Hero background image and overlay -->
+      <div class="hero-content container">
+        <h1>Hook the big one with Pescorama 🎣</h1>
+        <p>Quality gear, expert advice, and gear for every angler.</p>
+        <a href="shop.html" class="btn btn-primary">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="container section" aria-labelledby="featured-title">
+      <h2 id="featured-title">Featured Products</h2>
+      <div id="featured-products" class="grid grid-3"></div>
+    </section>
+
+    <!-- About teaser -->
+    <section class="container section about-teaser">
+      <h2>About Pescorama</h2>
+      <p>Family-owned since 1998, Pescorama brings you top-quality rods, reels, and baits—curated by anglers for anglers.</p>
+      <a href="about.html" class="btn">Learn More</a>
+    </section>
+  </main>
+
+  <!-- Footer injected by components.js -->
+  <div id="site-footer"></div>
+
+  <!-- Cart modal placeholder -->
+  <div id="cart-modal" class="cart-modal" hidden></div>
+
+  <!-- Scripts -->
+  <script src="js/components.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
